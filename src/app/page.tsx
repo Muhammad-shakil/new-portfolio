@@ -26,7 +26,7 @@ const skills = [
   {
     icon: Code2,
     title: "Full-Stack Web",
-    items: ["PHP / Laravel", "ASP.NET Core", "Next.js", "Razor Pages"],
+    items: ["PHP / Laravel", "ASP.NET Core", "Next.js", "Razor Pages", "Shadcn"],
   },
   {
     icon: Workflow,
@@ -41,7 +41,7 @@ const skills = [
   {
     icon: Database,
     title: "Data & Integrations",
-    items: ["MySQL", "Dataverse", "Stripe", "Postman"],
+    items: ["MySQL", "Dataverse", "Stripe", "Postman", "Webhook"],
   },
 ];
 
@@ -96,7 +96,7 @@ const experience = [
     company: "Hurak Tech",
     role: "Full-Stack Laravel Developer",
     period: "Dec 2024 — Present",
-    stack: "PHP · Laravel · Next.js · MySQL · Stripe · AWS · Docker · GTM · GA4",
+    stack: "PHP · Laravel · Next.js · MySQL · Webhook · Stripe · AWS · Docker · GTM · GA4",
   },
   {
     company: "ADB Word",
@@ -428,7 +428,7 @@ export default function Portfolio() {
                 <div className="relative">
                   <div className="flex items-start justify-between">
                     <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-surface-2 text-accent">
-                      <Icon className="h-6 w-6" />{link}
+                      <Icon className="h-6 w-6" />
                     </div>
                     <a href={link} target="_blank" rel="noopener noreferrer" aria-label="Open project link" >
                       <ExternalLink className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition" />
