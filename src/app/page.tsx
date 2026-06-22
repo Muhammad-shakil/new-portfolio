@@ -427,6 +427,9 @@ export default function Portfolio() {
                       <Icon className="h-6 w-6" />
                     </div>
                     <ExternalLink className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition" />
+                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" aria-label="Open project link" >
+                      <ExternalLink className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition" />
+                    </a>
                   </div>
                   <h3 className="mt-6 font-display text-2xl font-semibold">
                     {name}
