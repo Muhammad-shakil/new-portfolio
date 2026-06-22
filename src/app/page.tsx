@@ -512,25 +512,25 @@ export default function Portfolio() {
                 <ContactItem
                   icon={Mail}
                   label="Email"
-                  value="shakil@example.com"
-                  href="mailto:shakil@example.com"
+                  value="malikshakil449@gmail.com"
+                  href="mailto:malikshakil449@gmail.com"
                 />
                 <ContactItem
                   icon={Phone}
                   label="Phone"
-                  value="+92 307 1234567"
-                  href="tel:+923071234567"
+                  value="+92 307 4526026"
+                  href="tel:+923074526026"
                 />
-                <ContactItem
+                {/* <ContactItem
                   icon={MapPin}
                   label="Location"
-                  value="Guldasht Town, Lahore"
-                />
+                  value="Lahore"
+                /> */}
                 <ContactItem
                   icon={Linkedin}
                   label="LinkedIn"
-                  value="linkedin.com/in/mshakil"
-                  href="https://linkedin.com"
+                  value="Muhammad Shakil"
+                  href="https://www.linkedin.com/in/muhammad-shakil-hanif/"
                 />
                 <ContactItem
                   icon={Github}
