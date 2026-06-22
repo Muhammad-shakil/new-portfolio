@@ -49,7 +49,7 @@ const projects = [
   {
     name: "Education Services",
     role: "LMS, CMS & CRM Platform",
-    stack: ["Laravel", "Next.js", "AWS", "Tailwind"],
+    stack: ["Laravel", "Next.js", "MariaDB", "AWS", "shadcn", "Tailwind", "REST API", "Webhooks", "Stripe" ],
     desc: "SEO-optimized compliance training ecosystem with LMS, Provider Panel, CMS, and CRM — built end-to-end.",
     icon: GraduationCap,
     accent: "from-primary/30 to-primary/5",
