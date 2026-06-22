@@ -430,7 +430,7 @@ export default function Portfolio() {
                     <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-surface-2 text-accent">
                       <Icon className="h-6 w-6" />{link}
                     </div>
-                    <a href="{link}" target="_blank" rel="noopener noreferrer" aria-label="Open project link" >
+                    <a href={link} target="_blank" rel="noopener noreferrer" aria-label="Open project link" >
                       <ExternalLink className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition" />
                     </a>
                   </div>
