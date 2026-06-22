@@ -53,6 +53,7 @@ const projects = [
     desc: "SEO-optimized compliance training ecosystem with LMS, Provider Panel, CMS, and CRM — built end-to-end.",
     icon: GraduationCap,
     accent: "from-primary/30 to-primary/5",
+    link: "https://hurak.com/",
   },
   {
     name: "WeFundAnyone",
@@ -61,6 +62,7 @@ const projects = [
     desc: "Integrated KYC (Alloy), credit checks (Experian), and disbursements (Fiserv) — reduced loan processing time by 40%.",
     icon: ShieldCheck,
     accent: "from-accent/30 to-accent/5",
+    link: "https://wefundanyone.com/",
   },
   {
     name: "Hospitality Job Portal",
@@ -69,6 +71,7 @@ const projects = [
     desc: "Job portal serving 500+ active users in hospitality & F&B, driving a 20% lift in user engagement.",
     icon: TrendingUp,
     accent: "from-primary/30 to-accent/10",
+    link: "https://hungryforjobs.com/",
   },
   {
     name: "Pingfares",
@@ -77,6 +80,7 @@ const projects = [
     desc: "Real-time flight and hotel booking experience powered by integrated travel APIs.",
     icon: Sparkles,
     accent: "from-accent/25 to-primary/10",
+    link: "",
   },
 ];
 
@@ -413,7 +417,7 @@ export default function Portfolio() {
         >
           <SectionHeader eyebrow="Selected work" title="High-impact projects" />
           <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {projects.map(({ icon: Icon, name, role, stack, desc, accent }) => (
+            {projects.map(({ icon: Icon, name, role, stack, desc, accent, link }) => (
               <article
                 key={name}
                 className="glass-card p-8 relative overflow-hidden group"
@@ -426,8 +430,7 @@ export default function Portfolio() {
                     <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-surface-2 text-accent">
                       <Icon className="h-6 w-6" />
                     </div>
-                    <ExternalLink className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition" />
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" aria-label="Open project link" >
+                    <a href="{link}" target="_blank" rel="noopener noreferrer" aria-label="Open project link" >
                       <ExternalLink className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition" />
                     </a>
                   </div>
